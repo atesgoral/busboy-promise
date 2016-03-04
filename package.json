@@ -1,0 +1,28 @@
+{
+  "name": "busboy-promise",
+  "version": "0.0.1",
+  "description": "Promisified multipart collection using Busboy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atesgoral/busboy-promise.git"
+  },
+  "keywords": [
+    "busboy",
+    "multipart",
+    "promise",
+    "express"
+  ],
+  "author": "Ates Goral <ates@magnetiq.com> (http://magnetiq.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atesgoral/busboy-promise/issues"
+  },
+  "homepage": "https://github.com/atesgoral/busboy-promise#readme",
+  "dependencies": {
+    "busboy": "^0.2.12"
+  }
+}
