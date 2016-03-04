@@ -35,7 +35,7 @@ busboyPromise(req, options)
 ```js
 {
   value: /* the value */,
-  isNameTruncated: /* whether the name is truncated> */,
+  isNameTruncated: /* whether the name is truncated */,
   isValueTruncated: /* whether the value is truncated */,
   encoding: /* the encoding */,
   mimeType: /* the MIME type */
