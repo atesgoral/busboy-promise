@@ -24,6 +24,9 @@ busboyPromise(req, options)
       var file = parts.files[name];
       console.log('file field name:', file.value);
     }
+  })
+  .catch(function (err) {
+    console.error('error:', err);
   });
 
 ```

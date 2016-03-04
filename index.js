@@ -33,6 +33,10 @@ module.exports = function (req, options) {
       resolve(parts);
     });
 
+    busboy.on('error', function (err) {
+      reject(err);
+    });
+
     req.pipe(busboy);
   });
 };
